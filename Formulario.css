@@ -1,0 +1,41 @@
+
+body{
+font-family: sans-serif;on
+padding: 10px;
+text-align: center;
+background-image: url(Fondo.Png);
+}
+div{
+border-radius: 8px;
+width: 100px;
+height: auto;
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+gap: 32px;
+}
+h1,h2,h4
+{
+	text-align: left;
+	text-decoration-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+width:100px;
+height: 100px;
+float: right;
+}
+}
+header{
+		text-align: left;
+	text-decoration: none;
+}
+table{
+	display: flex;
+	justify-content: left;
+	align-content: center;
+}
+input{
+	background-color: #757575;
+}
